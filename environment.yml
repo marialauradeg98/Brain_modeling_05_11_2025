@@ -1,0 +1,10 @@
+name: nest-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - nest-simulator
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
