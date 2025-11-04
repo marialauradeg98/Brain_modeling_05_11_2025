@@ -36,5 +36,5 @@ conda activate nest-env
 To make sure NEST was installed correctly, run:
 
 ```bash
-python -c "import nest; print(nest.version())"
+python -c "import nest"
 ```
