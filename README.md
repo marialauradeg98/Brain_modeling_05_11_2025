@@ -8,7 +8,7 @@ The goal is to provide a introduction to:
 
 ---
 
-## 🧠 Getting Started
+## Installation guide
 
 ### 1. Clone the repository
 ```bash
@@ -38,3 +38,20 @@ To make sure NEST was installed correctly, run:
 ```bash
 python -c "import nest"
 ```
+
+## ⚠️ Warning for Windows Users
+
+The NEST simulator is **not yet compatible with Windows**.  
+You can either install it through **WSL**, or create an account on **[EBRAINS](https://iam.ebrains.eu/auth/realms/hbp/protocol/openid-connect/registrations?response_type=code&client_id=xwiki&redirect_uri=https://wiki.ebrains.eu)** to use their **[JupyterHub](https://lab.ebrains.eu/)** environment.
+
+### Using EBRAINS JupyterHub
+
+Once registered, follow the JupyterHub link and:
+
+1. Select **Jülich Supercomputing Centre (JSC)** as the *Lab Execution Site*;
+2. Sign in using **Keycloak** (login with your account if requested);
+3. Open a **Terminal** from the launcher and clone the lesson repository:
+
+   ```bash
+   git clone https://github.com/marialauradeg98/Brain_modeling_05_11_2025.git
+4. Navigate to the notebook folder and run the notebooks using the EBRAINS-25.02 kernel.
